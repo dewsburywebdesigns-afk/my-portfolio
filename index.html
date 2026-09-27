@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Samuel | Web Architect & Digital Designer</title>
+    <meta name="description" content="Official business portfolio of Elias Samuel. Building high-converting digital web solutions for clients worldwide.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Ambient Glowing Background Graphics -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Background Particle Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Elias<span class="gradient-text">Samuel</span>.</a>
+            <nav id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#story" class="nav-link">My Story</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Work</a>
+                <a href="#contact" class="btn-primary nav-cta">Start a Project</a>
+            </nav>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+                    <span id="theme-icon">&#9788;</span>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container" id="about">
+        <div class="hero-grid">
+            <div class="hero-text">
+                <a href="#contact" class="status-badge-link">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span> Available for Global Projects &rarr;
+                    </div>
+                </a>
+                <h1>Engineering <span class="gradient-text typing-text"></span></h1>
+                <p class="hero-subtext">
+                    I am <strong>Elias Samuel</strong>, a Web Developer and UI/UX Specialist. I build bespoke, high-converting digital platforms for global businesses.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#projects" class="btn-primary glow-effect">Explore Work &rarr;</a>
+                    <a href="https://wa.me/2349167989971?text=Hello%20Elias,%20I%20would%20like%20to%20discuss%20a%20web%20project." target="_blank" class="btn-secondary">Chat on WhatsApp</a>
+                </div>
+            </div>
+            
+            <!-- Profile Photo Area -->
+            <div class="hero-visual">
+                <div class="img-frame">
+                    <img src="profile2.jpg" alt="Elias Samuel" class="profile-photo">
+                </div>
+                <div class="glass-badge badge-1">
+                    <span class="badge-icon">⚡</span>
+                    <div>
+                        <strong>Fast Load Times</strong>
+                        <small>Sub-Second Response</small>
+                    </div>
+                </div>
+                <div class="glass-badge badge-2">
+                    <span class="badge-icon">🌐</span>
+                    <div>
+                        <strong>Global Reach</strong>
+                        <small>Standards Compliant</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story" class="story-section container">
+        <div class="section-header reveal">
+            <span class="section-tag">Background</span>
+            <h2>The Journey Behind the Code</h2>
+        </div>
+        <div class="story-timeline reveal">
+            <div class="story-card glass-card">
+                <div class="story-content">
+                    <span class="year">Chapter I — The Spark</span>
+                    <h3>Curiosity Meets Engineering</h3>
+                    <p>My journey began with a fundamental fascination: understanding how the internet bridges ideas with reality. What started as exploring lines of code quickly evolved into a dedicated pursuit of mastering modern web design and software architecture.</p>
+                </div>
+            </div>
+            <div class="story-card glass-card">
+                <div class="story-content">
+                    <span class="year">Chapter II — Refinement</span>
+                    <h3>Where Design Meets Logic</h3>
+                    <p>I recognized that aesthetics without functional architecture fail to deliver business results, while raw logic without intuitive UI loses user engagement. I fused visual UI/UX design with robust front-end engineering to deliver holistic digital solutions.</p>
+                </div>
+            </div>
+            <div class="story-card glass-card">
+                <div class="story-content">
+                    <span class="year">Chapter III — Today</span>
+                    <h3>Building for Global Impact</h3>
+                    <p>Today, I collaborate with brands, startups, and remote teams globally. I focus on crafting scalable, lightning-fast web applications designed to convert visitors into loyal clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section container">
+        <div class="section-header reveal">
+            <span class="section-tag">Solutions</span>
+            <h2>How I Help Brands Win</h2>
+        </div>
+        <div class="grid services-grid">
+            <div class="card glass-card reveal">
+                <div class="card-number">01</div>
+                <h3>UI/UX & Visual Architecture</h3>
+                <p>Human-centered interfaces, wireframing, and interactive prototypes tailored for high user retention and seamless accessibility.</p>
+                <ul class="card-list">
+                    <li>Design Systems</li>
+                    <li>User Journey Mapping</li>
+                    <li>Wireframing & Prototyping</li>
+                </ul>
+            </div>
+            <div class="card glass-card reveal">
+                <div class="card-number">02</div>
+                <h3>Modern Web Development</h3>
+                <p>Clean, semantic, and maintainable codebase built using modern JavaScript standards, responsive CSS, and optimal performance rules.</p>
+                <ul class="card-list">
+                    <li>Responsive Web Apps</li>
+                    <li>API Integrations</li>
+                    <li>Speed & SEO Optimization</li>
+                </ul>
+            </div>
+            <div class="card glass-card reveal">
+                <div class="card-number">03</div>
+                <h3>Full-Service Web Deployment</h3>
+                <p>Complete end-to-end setup including domain architecture, modern cloud hosting, and continuous Git deployment pipelines.</p>
+                <ul class="card-list">
+                    <li>Custom Domain Setup</li>
+                    <li>Automated CI/CD Workflows</li>
+                    <li>SSL & Security Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section: 4 Business Web Previews -->
+    <section id="projects" class="projects-section container">
+        <div class="section-header reveal">
+            <span class="section-tag">Portfolio</span>
+            <h2>Featured Business Websites</h2>
+            <p style="color: var(--text-secondary); margin-top: 0.5rem;">Click any project to view its full interactive showcase and design breakdown.</p>
+        </div>
+        <div class="grid projects-grid">
+            
+            <!-- Business 1: Luxury Jewelry -->
+            <div class="project-card glass-card reveal">
+                <div class="project-preview" style="background-image: url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80');">
+                    <div class="preview-overlay">
+                        <button class="preview-btn" onclick="openDemo('jewelry')">View Showcase &rarr;</button>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-meta"><span>Luxury Brand & E-Commerce</span> • <span>UI Case Study</span></div>
+                    <h3>Aurelia Fine Jewelry</h3>
+                    <p>An exquisite, high-end jewelry storefront featuring gold & diamond catalog showcases, interactive product zoom, and bespoke custom fitting appointments.</p>
+                    <div class="tech-stack"><span>Luxury UI</span><span>E-Commerce</span><span>Interactive Gallery</span></div>
+                </div>
+            </div>
+
+            <!-- Business 2: Real Estate -->
+            <div class="project-card glass-card reveal">
+                <div class="project-preview" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80');">
+                    <div class="preview-overlay">
+                        <button class="preview-btn" onclick="openDemo('realestate')">View Showcase &rarr;</button>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-meta"><span>Luxury Real Estate</span> • <span>UI Case Study</span></div>
+                    <h3>Lumina Estates</h3>
+                    <p>A high-end property web portal showcasing architectural listings, interactive filtering, and virtual walkthrough scheduling.</p>
+                    <div class="tech-stack"><span>Flexbox/Grid</span><span>Dynamic Filters</span><span>UI/UX</span></div>
+                </div>
+            </div>
+
+            <!-- Business 3: Healthcare -->
+            <div class="project-card glass-card reveal">
+                <div class="project-preview" style="background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80');">
+                    <div class="preview-overlay">
+                        <button class="preview-btn" onclick="openDemo('health')">View Showcase &rarr;</button>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-meta"><span>Healthcare & Wellness</span> • <span>UI Case Study</span></div>
+                    <h3>Aura Health Clinic</h3>
+                    <p>A modern medical & wellness clinic interface built with patient appointment portals, care plans, and practitioner directory.</p>
+                    <div class="tech-stack"><span>JavaScript</span><span>Form Engine</span><span>CSS Animations</span></div>
+                </div>
+            </div>
+
+            <!-- Business 4: Gaming & Tech Devices -->
+            <div class="project-card glass-card reveal">
+                <div class="project-preview" style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80');">
+                    <div class="preview-overlay">
+                        <button class="preview-btn" onclick="openDemo('gaming')">View Showcase &rarr;</button>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="project-meta"><span>Gaming & Electronics</span> • <span>UI Case Study</span></div>
+                    <h3>CyberGear Devices</h3>
+                    <p>A high-energy gaming gear portal showcasing custom PC builds, high-refresh hardware specs, dynamic lighting customization, and esports peripherals.</p>
+                    <div class="tech-stack"><span>Dark Neon UI</span><span>Spec Configurator</span><span>E-Commerce</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal Window for UI Previews -->
+    <div id="demo-modal" class="modal-overlay">
+        <div class="modal-content glass-card">
+            <button class="modal-close" onclick="closeDemo()">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section Direct to Gmail via Formspree Endpoint mzezvgrn -->
+    <section id="contact" class="contact-section container">
+        <div class="glass-card contact-box reveal">
+            <span class="section-tag">Let's Connect</span>
+            <h2>Have a Project in Mind?</h2>
+            <p>Send me a message below. Form submissions will be routed directly to my inbox at <strong>samuelsonelias125@gmail.com</strong>.</p>
+
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/mzezvgrn" method="POST">
+                <div class="form-group-double">
+                    <input type="text" name="name" placeholder="Your Name or Business" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <input type="text" name="subject" placeholder="Project Subject / Scope" required>
+                <textarea name="message" rows="5" placeholder="Tell me about your project vision, goals, and timeline..." required></textarea>
+
+                <button type="submit" id="submit-btn" class="btn-primary glow-effect">Send Inquiry</button>
+                <p id="form-status" style="margin-top: 1rem; font-weight: 600; font-size: 0.95rem;"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer container">
+        <div class="footer-content">
+            <p>&copy; <span id="year">2026</span> <strong>Elias Samuel</strong>. Crafted with precision.</p>
+            <div class="footer-links">
+                <a href="#about">Top</a>
+                <a href="https://wa.me/2349167989971" target="_blank" class="footer-highlight">WhatsApp</a>
+                <a href="mailto:samuelsonelias125@gmail.com" class="footer-highlight">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
